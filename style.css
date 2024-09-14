@@ -1,0 +1,127 @@
+body>header{
+    background-color: aqua;
+    color:white;
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-ul{
+    display: flex;
+}
+
+.nav-ul>li{
+    padding: 10px;
+    margin: 20px;
+}
+
+.nav-ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton{
+    color: white;
+    text-decoration: none;
+    padding: 12px;   
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+body> main article{
+    width: 80%;
+    margin:auto;
+}
+
+.main-content{
+    display: flex;
+    
+}
+
+.section1{
+    padding-left: 10px;
+    justify-content: space-between;
+
+}
+
+.section1>li>a{
+    text-decoration: none;
+}
+.sidebar{
+    margin-left:10px ;
+    
+}
+
+
+
+
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+}
+
+h1{
+    margin: 0px;
+}
+
+h4{
+    font-size: 1.5vw; 
+}
+
+h3{
+    font-size: 1.5vw;  
+}
+
+body>footer{
+    background-color: aqua;
+    display: flex;
+}
+
+ul{
+    margin: 0px;
+}
+
+h1{
+    margin: 0px;
+    padding:10px ;
+    font-family: "Fredoka One", sans-serif;
+    box-shadow: 10px 5px 5px black;
+    width:20%;
+    border-radius: 10%;
+}
+
+
+h1 {   
+    text-shadow: 
+        -1px -1px 0 black,   /* Top-left */
+        1px -1px 0 black,    /* Top-right */
+        -1px 1px 0 black,    /* Bottom-left */
+        1px 1px 0 black;     /* Bottom-right */
+}
+
+ 
+
+form{
+    text-align: center;
+}
+  
+
+img{
+    border-radius: 50%;
+}
+
+.a-footer{
+    display: flex;
+    list-style:none;
+}
+  
+.a-footer>div>li{
+    margin-right: 12px;
+}
+
+.a-footer>div>li>a{
+    text-decoration: none;
+    color: white;
+}
